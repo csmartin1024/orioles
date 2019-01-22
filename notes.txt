@@ -1,0 +1,72 @@
+Running journal
+
+Upon first read of the instructions my first thoughts were:
+-Man, I wish I had a whiteboard
+-A "visualization to compare the pitches thrown" is vague
+-Need to brush up on what exactly a contour plot is/looks like
+-That formula looks complicated (aka math is amazing)
+
+
+Ok after a few hours of thinking/drawing/some coding here are some more thoughts:
+-I'm not positive, but it seems as though the three parts of my contour "triplet" are x=plate_x, y=plate_z, and z = chanceOfHitFunction(x,y)
+-Given that assumption, I started trying to find visualization tools that would allow me to represent a contour plot.
+-Initially, I was just going to build something in react (And currently that's what I have), but after searching for visualization tools for react, I am slightly hesitant, but alas, this is a prototype, so we can figure out if it is worth exploring.
+
+My first attempt was to utilize 
+-https://uber.github.io/react-vis/documentation/welcome-to-react-vis
+
+Which offered up "contour series", but after toying around, I don't think it offers what I need. It allows me to supply x and y values, but pretty sure it is lacking something.
+
+After some googling, I stumbled across plotly.js, it seems like it allows for more customization and the documentation is extensive
+
+-I did some coding just to get the velocity input/slider working
+
+-end of day one
+
+-I took some time away from theory and just focused on some ui things (see sketch_a.jpg)
+-Contour type (still not sure how to create this)
+-Pitch type avg pie chart(eg: 72% fastball, 36%curveball, etc)
+-Pitch Type Hit pct (fb: 20%, cb:30%, etc...)
+.
+.
+.
+-Okay created pie/bar charts
+.
+.
+.
+BREAKTHROUGH!!!!!
+-After a few hours of research/youtube, and feeling like I was back in Calc 2
+I think I figured out what I wanted to do!
+Shoutout to https://www.youtube.com/watch?v=oLQDiOBzF2s
+-I was jumping too many steps when trying to graph a contour, when i should have focused on graphing a multi-variable function
+-So what i need to do is generate x vector (-1,1) and y vector (1.6,3.4) and then 
+calculate hit chances for each point
+-And then I think I will overlay the pitches by Bundy and Cobb so we can see where their pitches are going
+.
+.
+.
+-Okay just reworked the React JS code so its a little bit more modular
+-Also, the way I design the page feels off. Right now I have a split view.
+-I tried to overlay both pitchers pitches on the contour plot, but it honestly looked really busy and you couldn't figure much out.
+-I am going to take some time and think on ideas for what visualizations/metrics I can display
+.
+.
+.
+
+
+Summary of process
+- I knew I wanted to at least start with a React app because I could spin one of those up really quickly
+- I also knew the Github pages process pretty well so I just duped some old code I had
+- I definitely needed to research on contour plots/multi-variable functions. I was two classes short of a Math major, I can see those two classes would have probably helped here
+- My initial vision of a split view may have been short sighted, but given the timeframe,I wanted to have something to show
+- Also, given I am the only one that is building/looking at this thing for the time being, it is difficult to bounce ideas off yourself.
+-If I had more time, I would probably want to ask a few more questions or have a conversation about who we think the audience of this "visualization" is, because that would drive what next steps I would take
+-Some features that would be nice would probably be:
+1. On hovering of a point, it would show the pitch info and some averages/aggregations. 
+2. A 3d rendering of the pitches, but mainly because that would be cool to build. Also, 
+3. Maybe a link to a video of the pitcher pitching could be interesting to see his release. 
+-All in all, I am fairly happy with my submission because I can honestly say I had to learn something in order to build this which is exciting.
+
+
+
+
