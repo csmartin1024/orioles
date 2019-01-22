@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/orioles/precache-manifest.5c5050d366e57a6469279fc6bf1e2aed.js"
+  "/orioles/precache-manifest.80bb0af30e452af7bc95fe140a70fda1.js"
 );
 
 workbox.clientsClaim();

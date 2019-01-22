@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "208679fb6cdffa5f5a57",
+    "revision": "6b373f8414f1c8f3a232",
     "url": "/orioles/static/css/main.a1110488.chunk.css"
   },
   {
-    "revision": "208679fb6cdffa5f5a57",
-    "url": "/orioles/static/js/main.208679fb.chunk.js"
+    "revision": "6b373f8414f1c8f3a232",
+    "url": "/orioles/static/js/main.6b373f84.chunk.js"
   },
   {
     "revision": "dadc586543a64f50064f",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/orioles/static/js/runtime~main.68cfeaf5.js"
   },
   {
-    "revision": "358a74afc5b24aa1b23895b55caeb49d",
+    "revision": "8055bc3a6d7aabe05d8f6a29ee3bc2b4",
     "url": "/orioles/index.html"
   }
 ];
