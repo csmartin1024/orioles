@@ -53,7 +53,6 @@ calculate hit chances for each point
 .
 .
 
-
 Summary of process
 - I knew I wanted to at least start with a React app because I could spin one of those up really quickly
 - I also knew the Github pages process pretty well so I just duped some old code I had
@@ -61,10 +60,13 @@ Summary of process
 - My initial vision of a split view may have been short sighted, but given the timeframe,I wanted to have something to show
 - Also, given I am the only one that is building/looking at this thing for the time being, it is difficult to bounce ideas off yourself.
 -If I had more time, I would probably want to ask a few more questions or have a conversation about who we think the audience of this "visualization" is, because that would drive what next steps I would take
+- Also, given the data you guys have access too, I'm sure there are some cool predictive analytics we could incorporate into the page
+
 -Some features that would be nice would probably be:
-1. On hovering of a point, it would show the pitch info and some averages/aggregations. 
-2. A 3d rendering of the pitches, but mainly because that would be cool to build. Also, 
-3. Maybe a link to a video of the pitcher pitching could be interesting to see his release. 
+1. Have the page accept page params so you would be able to pass the two pitcher ids in
+2. On hovering of a point, it would show the pitch info and some averages/aggregations. 
+3. A 3d rendering of the pitches, but mainly because that would be cool to build. Also, 
+4. Maybe a link to a video of the pitcher pitching could be interesting to see his release. 
 -All in all, I am fairly happy with my submission because I can honestly say I had to learn something in order to build this which is exciting.
 
 
