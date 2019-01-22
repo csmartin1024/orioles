@@ -23,7 +23,7 @@ After some googling, I stumbled across plotly.js, it seems like it allows for mo
 
 -end of day one
 
--I took some time away from theory and just focused on some ui things (see sketch_a.jpg)
+-I took some time away from theory and just focused on some ui things (see ui.jpg)
 -Contour type (still not sure how to create this)
 -Pitch type avg pie chart(eg: 72% fastball, 36%curveball, etc)
 -Pitch Type Hit pct (fb: 20%, cb:30%, etc...)

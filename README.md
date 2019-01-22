@@ -26,4 +26,4 @@ read [these](https://github.com/csmartin1024/orioles/blob/master/instructions.md
 - This project was made possible via [Create React App](https://github.com/csmartin1024/create-react-app)
 
 
-### Note: If you're interested in my thought process, you can go [here](https://github.com/csmartin1024/orioles/blob/master/notes.txt)
+### Note: If you're interested in my thought process, you can go [here](https://github.com/csmartin1024/orioles/blob/master/notes/notes.txt)
